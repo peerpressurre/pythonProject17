@@ -10,13 +10,14 @@ try:
     sevenlist = []
     splitted = line.split(' ')
     for item in splitted:
-        l = len(item)
+        length = len(item)
         #print(l, end=" ")
-        if l > 7:
+        if length > 7:
             sevenlist.append(item)
             with open('seven.txt', 'w') as fle:
                 print(f"Words that contain 7 or more letters: {sevenlist}", file=fle)
-                print(f"Words that contain 7 or more letters: {item}")
+
+    print(f"Words that contain 7 or more letters: {sevenlist}")
 
 
 except Exception as ex:
