@@ -15,7 +15,7 @@ try:
         if length > 7:
             sevenlist.append(item)
             with open('seven.txt', 'w') as fle:
-                print(f"Words that contain 7 or more letters: {sevenlist}", file=fle)
+                print(f"{sevenlist}", file=fle)
 
     print(f"Words that contain 7 or more letters: {sevenlist}")
 
