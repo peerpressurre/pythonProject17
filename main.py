@@ -1,9 +1,10 @@
+
 try:
     with open("4stfile.txt", "w") as file4:
-        print("Hello", file= file4)
-        print("my", file= file4)
-        print("own", file= file4)
-        print("world!", file= file4)
+        print("whats", file= file4)
+        print("absu", file= file4)
+        print("absu", file= file4)
+        print("mullayo", file= file4)
 
     with open("4stfile.txt", "r") as file4:
         con = file4.readlines()
@@ -31,6 +32,6 @@ try:
             #print(re, "\n")
             #print(f"{lst[:-1]}", file=file5)
 
-    print("****DONE****")
+    print("--DONE--")
 except Exception as ex:
     print(f"Error: {ex}")
